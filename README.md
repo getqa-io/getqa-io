@@ -1,15 +1,15 @@
 <h1 align="center">GetQA</h1>
 
 <p align="center">
-  <b>Managed QA for software teams of 3 to 20.</b><br>
-  Full-time QA engineers who join your sprints, overlap your workday, and catch what slips through before your users do.
+  <b>AI QA agents, set up and kept in tune.</b><br>
+  We set up AI QA agents in your repo, tracker and CI, then keep reviewing and tuning them as your product grows.
 </p>
 
 <p align="center">
   <a href="https://getqa.io">Website</a> ·
-  <a href="https://getqa.io/blog">Blog</a> ·
   <a href="https://getqa.io/how-we-test">How we test</a> ·
-  <a href="https://getqa.io/careers">Careers</a> ·
+  <a href="https://getqa.io/deliverables">Deliverables</a> ·
+  <a href="https://getqa.io/blog">Blog</a> ·
   <a href="https://www.linkedin.com/company/getqaio">LinkedIn</a>
 </p>
 
@@ -17,29 +17,31 @@
 
 ## What we do
 
-GetQA provides dedicated, full-time QA engineers to software and SaaS teams. Our engineers integrate directly into your existing workflow and sprint cycle, covering:
+GetQA is an AI QA company that designs, sets up and maintains AI QA agent workflows for software teams. Each workflow connects to your repository, issue tracker and CI, and covers:
 
-- Manual and exploratory testing on every feature that ships
-- Automated regression suites in Playwright, Cypress, or Selenium
-- Regression and load testing before each release
-- Test execution wired into your CI/CD pipeline
-- Structured defect reporting with severity, repro steps, and context
+- Test cases written from your tickets, into a test management suite you own
+- Test runs in real browsers, on a schedule and on every build
+- Bug tickets filed in your tracker, with steps, expected vs actual, and a recording
+- Triage of every failing run: real bug, flaky test, or broken environment
+- A daily summary from the agent and a weekly review from a person
 
-Each engagement runs as an embedded, long-term QA function inside your engineering organization, not a one-off "test it and leave" project.
+Every setup is reviewed and tuned on an ongoing basis, and extended as AI models improve and your product grows.
+
+## How it runs
+
+The agent runs on Claude Code or Codex, on your own Anthropic or OpenAI account (API keys or a seat in your team workspace). It lives on one desktop, ideally inside your network, with scheduled jobs, agent loops, MCP servers and your product context set up on it. No servers to stand up, no new platform.
 
 ## How we're different
 
-**A managed function, not a freelancer.** We train, supervise, and direct the engineers we assign, act on your feedback, and answer for the quality.
+**The agent is the easy part. Keeping it right is the job.** Every week we read what the agent filed, wrote and skipped, measure its false alarms, and fix the prompt or the context behind each miss.
 
-**More coverage for the budget.** What one QA hire costs in the US covers two to three of our engineers.
+**Upgraded as models ship, tested first.** When a better model lands, we run it against your own evals before anything switches.
 
-**Working hours that overlap yours.** Our engineers work a shifted day that covers the US business morning, so standups and urgent fixes happen live.
+**Your account, your repo.** The agent runs under your model account and your terms. Test cases, context files, evals and the workflow itself live in your repo and belong to you.
 
-**Your tools, your code.** We work in your tracker, your CI, and your Slack. You own every line of test code we write.
+## Tools we connect to
 
-## Tools we work in
-
-`Playwright` `Cypress` `Selenium` `TypeScript` `Java` `Python` `k6` `Postman` `Jira` `Qase` `GitHub Actions` `GitLab CI` `Jenkins`
+`Claude Code` `Codex` `Playwright` `MCP` `GitHub` `GitLab` `Jira` `Qase` `GitHub Actions` `GitLab CI` `Jenkins` `Slack`
 
 ## What lives here
 
@@ -49,5 +51,4 @@ Issues and pull requests are welcome on any public repository.
 
 ## Work with us
 
-- **Need QA for your team?** Book a free 30-minute intro call at [getqa.io](https://getqa.io/#contact)
-- **Want to join as a QA engineer?** See open roles at [getqa.io/careers](https://getqa.io/careers)
+**Want an AI QA agent on your releases?** Book a free 30-minute intro call at [getqa.io](https://getqa.io/#contact).
